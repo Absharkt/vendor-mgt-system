@@ -1,0 +1,33 @@
+Vendor Management System
+
+1. Clone the repository
+2. Install Dependencies 
+    pip install -r requirements.txt
+
+3. Run Migrations
+4. Run the Development Server
+    python manage.py runserver
+
+API Endpoints--
+
+Vendors
+
+POST /api/vendors/: Create a new vendor.
+GET /api/vendors/: List all vendors.
+GET /api/vendors/<id>/: Retrieve details of a specific vendor.
+PUT /api/vendors/<id>/: Update details of a specific vendor.
+DELETE /api/vendors/<id>/: Delete a specific vendor.
+
+Purchase Orders 
+
+POST /api/purchase_orders/: Create new purchase order.
+GET /api/purchase_orders/: List all purchase orders.
+GET /api/purchase_orders/<id>/: Retrieve details of a specific purchase order.
+PUT /api/purchase_orders/<id>/: Update details of a specific purchase order.
+DELETE /api/purchase_orders/<id>/: Delete a specific purchase order.
+
+Vendor Performance
+
+GET /api/vendors/<id>/performance/: Retrieve performance of a specific vendor
+
+
